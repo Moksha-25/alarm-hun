@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Subtle gradient-like background/ring for premium depth -->
+    <path
+        android:pathData="M 60 10 A 50 50 0 1 0 60 110 A 50 50 0 1 0 60 10 Z"
+        android:strokeColor="#8B5CF6"
+        android:strokeWidth="2.5"
+        android:fillColor="#141416"/>
+
+    <!-- Lightning Bolt Path in Accent Violet/Gold/Green -->
+    <path
+        android:pathData="M 63 32 L 40 62 L 58 62 L 54 88 L 78 54 L 60 54 Z"
+        android:fillColor="#8B5CF6"/>
+
+    <!-- Clock Center overlay & hands -->
+    <path
+        android:pathData="M 60 48 L 60 58 L 68 58"
+        android:strokeColor="#F2F2F7"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"/>
+
+    <!-- Dial Tick Marks -->
+    <path
+        android:pathData="M 60 18 L 60 22 M 60 98 L 60 102 M 20 60 L 24 60 M 96 60 L 100 60"
+        android:strokeColor="#8E8E93"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"/>
+</vector>

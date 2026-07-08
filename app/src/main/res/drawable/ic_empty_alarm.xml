@@ -1,0 +1,57 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Back sleep aura -->
+    <path
+        android:pathData="M 50 50 m -30 0 a 30 30 0 1 0 60 0 a 30 30 0 1 0 -60 0"
+        android:fillColor="#1C1C1E"/>
+
+    <!-- Clock Body -->
+    <path
+        android:pathData="M 50 65 m -20 0 a 20 20 0 1 0 40 0 a 20 20 0 1 0 -40 0"
+        android:strokeColor="#8E8E93"
+        android:strokeWidth="2.5"
+        android:fillColor="#222225"/>
+
+    <!-- Left bell -->
+    <path
+        android:pathData="M 33 42 A 6 6 0 0 1 45 46 L 41 50 Z"
+        android:fillColor="#8B5CF6"/>
+
+    <!-- Right bell -->
+    <path
+        android:pathData="M 67 42 A 6 6 0 0 0 55 46 L 59 50 Z"
+        android:fillColor="#8B5CF6"/>
+
+    <!-- Clock Legs -->
+    <path
+        android:pathData="M 36 82 L 28 88 M 64 82 L 72 88"
+        android:strokeColor="#8E8E93"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+
+    <!-- Sleep Zzz symbols -->
+    <path
+        android:pathData="M 60 25 L 68 25 L 60 33 L 68 33"
+        android:strokeColor="#8B5CF6"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+
+    <path
+        android:pathData="M 72 12 L 78 12 L 72 18 L 78 18"
+        android:strokeColor="#8B5CF6"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+
+    <!-- Quiet hands inside clock face -->
+    <path
+        android:pathData="M 50 65 L 50 58 M 50 65 L 58 65"
+        android:strokeColor="#8E8E93"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"/>
+</vector>

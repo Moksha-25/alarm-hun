@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Globe background aura -->
+    <path
+        android:pathData="M 50 50 m -30 0 a 30 30 0 1 0 60 0 a 30 30 0 1 0 -60 0"
+        android:fillColor="#1C1C1E"/>
+
+    <!-- Globe outer boundary -->
+    <path
+        android:pathData="M 50 50 m -25 0 a 25 25 0 1 0 50 0 a 25 25 0 1 0 -50 0"
+        android:strokeColor="#8E8E93"
+        android:strokeWidth="2.5"
+        android:fillColor="#222225"/>
+
+    <!-- Grid lines: Latitudes -->
+    <path
+        android:pathData="M 26 40 Q 50 48 74 40 M 25 50 H 75 M 26 60 Q 50 52 74 60"
+        android:strokeColor="#323236"
+        android:strokeWidth="1.5"/>
+
+    <!-- Grid lines: Longitudes -->
+    <path
+        android:pathData="M 50 25 C 38 35 38 65 50 75 M 50 25 C 62 35 62 65 50 75 M 50 25 V 75"
+        android:strokeColor="#323236"
+        android:strokeWidth="1.5"/>
+
+    <!-- Map land outline indicators (simplified design dots) -->
+    <path
+        android:pathData="M 38 38 A 3 3 0 1 1 38 37 Z M 64 54 A 2.5 2.5 0 1 1 64 53 Z M 48 58 A 4 4 0 1 1 48 57 Z"
+        android:fillColor="#8B5CF6"/>
+</vector>

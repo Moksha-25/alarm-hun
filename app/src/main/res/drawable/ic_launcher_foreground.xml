@@ -1,0 +1,71 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Glowing Amber Ring Outer Glow 2 -->
+    <path
+        android:strokeColor="#1AFFB703"
+        android:strokeWidth="14"
+        android:strokeLineCap="round"
+        android:pathData="M 54,54 A 22,22 0 1,1 53.9,54 Z" />
+
+    <!-- Glowing Amber Ring Outer Glow 1 -->
+    <path
+        android:strokeColor="#4DFFB703"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:pathData="M 54,54 A 22,22 0 1,1 53.9,54 Z" />
+
+    <!-- Glowing Amber Ring Core -->
+    <path
+        android:strokeColor="#FFB703"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M 54,54 A 22,22 0 1,1 53.9,54 Z" />
+
+    <!-- Left Alarm Clock Leg -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:pathData="M 37,74 L 25,86" />
+
+    <!-- Right Alarm Clock Leg -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:pathData="M 71,74 L 83,86" />
+
+    <!-- Alarm Clock Left Lightning Bolt Bell (Electric Cyan) -->
+    <path
+        android:fillColor="#00F5FF"
+        android:pathData="M 32,38 L 18,34 L 26,44 L 16,52 L 28,48 L 24,58 Z" />
+
+    <!-- Alarm Clock Right Lightning Bolt Bell (Electric Cyan) -->
+    <path
+        android:fillColor="#00F5FF"
+        android:pathData="M 76,38 L 90,34 L 82,44 L 92,52 L 80,48 L 84,58 Z" />
+
+    <!-- Center Lightning Bolt (Energy Symbol in the center of the clock face) -->
+    <path
+        android:fillColor="#00F5FF"
+        android:pathData="M 57,41 L 46,55 L 53,55 L 51,69 L 62,55 L 55,55 Z" />
+
+    <!-- Hammer Connection Left -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M 39,39 L 36,41" />
+
+    <!-- Hammer Connection Right -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M 69,39 L 72,41" />
+
+</vector>

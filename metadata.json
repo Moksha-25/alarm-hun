@@ -1,0 +1,6 @@
+{
+  "name": "VoltAlarm",
+  "description": "VoltAlarm – Smart Alarm & World Clock: Wake Smarter, Live Better with smart alarms, battery status alerts, world clock, and advanced timer capabilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
